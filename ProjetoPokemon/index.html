@@ -1,0 +1,122 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+
+    <link rel="shortcut icon" href="./assets/img/favicon-16x16.png" type="image/x-icon">
+    <link rel="stylesheet" href="./assets/css/style.css">
+
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+
+    <link href="https://fonts.googleapis.com/css2?family=Press+Start+2P&display=swap"
+        rel="stylesheet">
+
+    <title>Batalha Pokémon - FIGHT!</title>
+</head>
+
+<body>
+
+    <div class="escolher-pokemon">
+        <input
+            type="text"
+            id="pokemon-jogador-input"
+            placeholder="Seu Pokémon">
+
+        <input
+            type="text"
+            id="pokemon-inimigo-input"
+            placeholder="Inimigo">
+
+        <button id="btn-batalha">
+            Iniciar batalha
+        </button>
+    </div>
+
+
+    <div class="gameboy">
+
+        <main class="batalha">
+
+            <!-- Pokémon inimigo -->
+            <section class="pokemon-inimigo">
+
+                <div class="info-pokemon">
+                    <h2 id="nome-inimigo">...</h2>
+
+                    <span>
+                        Nv.
+                        <span id="nivel-inimigo">...</span>
+                    </span>
+
+                    <div class="barra-hp">
+                        <div class="hp" id="hp-inimigo"></div>
+                    </div>
+                </div>
+
+                <img
+                    id="img-inimigo"
+                    src=""
+                    alt="Pokémon inimigo">
+            </section>
+
+
+            
+            <section class="pokemon-jogador">
+
+                <img
+                    id="img-jogador"
+                    src=""
+                    alt="Seu Pokémon">
+
+                <div class="info-pokemon">
+                    <h2 id="nome-jogador">...</h2>
+
+                    <span>
+                        Nv.
+                        <span id="nivel-jogador">...</span>
+                    </span>
+
+                    <div class="barra-hp">
+                        <div class="hp" id="hp-jogador"></div>
+                    </div>
+                </div>
+
+            </section>
+
+
+            
+            <section class="caixa-dialogo">
+
+                <p id="mensagem">
+                    O que o Pokémon vai fazer?
+                </p>
+
+                <div class="golpes">
+                    <button>Atacar</button>
+                    <button>Defender</button>
+                    <button>Correr</button>
+                    <button>Pular turno</button>
+                </div>
+
+            </section>
+
+        </main>
+
+    </div>
+
+
+    
+    <audio id="musica-batalha" loop>
+        <source
+            src="./assets/audio/batalhapokemon.mp3"
+            type="audio/mpeg">
+    </audio>
+
+    <script src="./assets/js/script.js"></script>
+
+</body>
+
+</html>
