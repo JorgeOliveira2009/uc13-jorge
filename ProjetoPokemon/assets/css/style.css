@@ -18,7 +18,7 @@ body {
     width: 700px;
     height: 1150px;
 
-    background-image: url("/assets/img/gameboy.jpg");
+    background-image: url("https://i.pinimg.com/736x/6b/76/15/6b7615f29c4cab7c3e1e08a9f5164e21.jpg");
     background-size: contain;
     background-repeat: no-repeat;
     background-position: center;
@@ -28,7 +28,7 @@ body {
 
 
 .batalha {
-    width: 391px;
+    width: 400px;
     height: 340px;
 
     background-color: #9bbc0f;
@@ -36,8 +36,8 @@ body {
 
     position: absolute;
 
-    top: 146px;
-    left: 150px;
+    top: 173px;
+    left: 162px;
 
     overflow: hidden;
 
