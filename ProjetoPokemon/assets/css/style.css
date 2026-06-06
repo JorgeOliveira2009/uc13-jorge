@@ -5,7 +5,7 @@
 }
 
 body {
-    background-color: #7b8f6a;
+    background: linear-gradient(to bottom, #6ab7f5, #fff);
     font-family: 'Press Start 2P', cursive;
     display: flex;
     justify-content: center;
